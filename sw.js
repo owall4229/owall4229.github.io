@@ -2,8 +2,8 @@ const CACHE_NAME = 'core-cache-v1';
 const urlsToCache = [
     '/',
     '/index.html',
-    '/style.css',
-    '/app.js',
+    '/index.css',
+    '/index.js',
     '/icon-192.png',
     '/icon-512.png'
 ];
