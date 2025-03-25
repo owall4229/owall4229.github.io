@@ -177,7 +177,7 @@
             height: 100px;
             background-color: black;
             margin: 5px;
-	    cursor: url(main/corecursor.cur), auto;
+	    cursor: url(cursor.cur), auto;
         }
 
         * {
