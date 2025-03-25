@@ -267,6 +267,9 @@
 	<div class="box" style="position: absolute; top: 180px; left: 525px;"></div>
 	<div class="box" style="position: absolute; top: 180px; left: 630px;"></div>
     <script>
+    if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js', { scope: './' });
+      }
         const contextMenu = document.querySelector(".container");
         const subMenu = document.querySelector(".share-menu");
 
