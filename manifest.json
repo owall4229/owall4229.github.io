@@ -8,6 +8,7 @@
   "theme_color": "#2f3d58",
   "orientation": "any",
   "display": "standalone",
+  "version": "1.0.0",
   "icons": [
     {
       "src": "512.png",
